@@ -1,7 +1,7 @@
-// Bubble Sort ASC
+// Built-in sort function ASC
 
-Start time for run 1: 0.000066, End time for run 1: 0.009763, Run time: 0.009697
-Start time for run 2: 0.009872, End time for run 2: 0.010332, Run time: 0.000460
-Start time for run 3: 0.010388, End time for run 3: 0.010839, Run time: 0.000451
+Start time for run 1: 0.000072, End time for run 1: 0.000808, Run time: 0.000736
+Start time for run 2: 0.001748, End time for run 2: 0.002412, Run time: 0.000664
+Start time for run 3: 0.002498, End time for run 3: 0.003053, Run time: 0.000555
 
 // Above is my test run

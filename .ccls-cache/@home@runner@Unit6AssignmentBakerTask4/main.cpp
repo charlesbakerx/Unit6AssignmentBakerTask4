@@ -1,11 +1,12 @@
 /*
 Charles Baker, Programming Fundamentals I: COSC-1436-57001
 IDE: Replit
-Summary: A program that sorts a predefined array using Bubble Sort in ASC mode.
+Summary: A program that sorts a predefined array using the built-in sort function
 */
 // #include <cstdlib>
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 #include "accounts.h"
 using namespace std;
 
@@ -24,7 +25,7 @@ int main() {
     string outputEnd = "";
     outputStart = "Start time for run " + to_string(i) + ": " + to_string(startTime);
     cout << outputStart << endl;
-    sortArray(accountBalances, maxAccounts);
+    sort(accountBalances, accountBalances+maxAccounts);
     printArray(accountBalances, maxAccounts);
     double endTime = cpuTime();
     outputEnd = "End time for run " + to_string(i) + ": " + to_string(endTime);
